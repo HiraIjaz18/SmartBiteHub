@@ -1,0 +1,98 @@
+.daily-menu-form {
+  margin-top: 150px;
+  padding-top: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: rgba(255, 255, 255, 0.95);
+  border: 2px solid #ddb892;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 850px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 40px;
+}
+
+/* Header Styling */
+.daily-menu-form h1 {
+  margin-bottom: 30px;
+  color: #c04b00;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  border-bottom: 2px solid #ddb892;
+  padding-bottom: 10px;
+}
+
+/* Hover Effect */
+.daily-menu-form:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Label Styling */
+.daily-menu-form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #6b4c3b;
+  width: 100%;
+  font-size: 1.1rem;
+}
+
+/* Input & Select Fields */
+.daily-menu-form input,
+.daily-menu-form select {
+  width: 100%;
+  padding: 14px;
+  margin-top: 6px;
+  border: 1px solid #ccb7a1;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  color: #4a3b2d;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.08);
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Focus Styling */
+.daily-menu-form input:focus,
+.daily-menu-form select:focus {
+  border-color: #c04b00;
+  box-shadow: 0 0 6px rgba(192, 75, 0, 0.2);
+  outline: none;
+}
+
+/* Checkbox Styling */
+.daily-menu-form label input[type="checkbox"] {
+  width: auto;
+  margin-top: 10px;
+  transform: scale(1.2);
+}
+
+/* Submit Button */
+.daily-menu-form button {
+  padding: 14px 30px;
+  background: #c04b00;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  align-self: center;
+  margin-top: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Button Hover Effect */
+.daily-menu-form button:hover {
+  background: #e07b3e;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
+}

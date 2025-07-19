@@ -1,0 +1,99 @@
+.recharge-wallet {
+  margin-top: 150px; /* Adjusted spacing */
+  padding: 60px 30px;
+  background: rgba(255, 255, 255, 0.95);
+  border: 2px solid #ddb892;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  width: 90%;
+  max-width: 600px;
+  min-height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.recharge-wallet:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Header Styling */
+.recharge-wallet h4 {
+  font-size: 2.2rem;
+  color: #c04b00;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #ddb892;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Form Styling */
+.recharge-wallet form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Input Fields */
+.recharge-wallet input {
+  padding: 14px;
+  font-size: 1rem;
+  border: 2px solid #ccb7a1;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #4a3b2d;
+  width: 100%;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.08);
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recharge-wallet input:focus {
+  border-color: #c04b00;
+  box-shadow: 0 0 8px rgba(192, 75, 0, 0.25);
+  outline: none;
+}
+
+/* Submit Button */
+.recharge-wallet button {
+  padding: 14px 30px;
+  background: #c04b00;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.recharge-wallet button:hover {
+  background: #c5540d;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  transform: translateY(-3px);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .recharge-wallet {
+    padding: 50px 20px;
+  }
+
+  .recharge-wallet h4 {
+    font-size: 1.8rem;
+  }
+
+  .recharge-wallet input {
+    font-size: 1rem;
+  }
+
+  .recharge-wallet button {
+    font-size: 1rem;
+    padding: 12px 24px;
+  }
+}

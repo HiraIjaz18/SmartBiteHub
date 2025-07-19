@@ -1,0 +1,121 @@
+.daily-menu {
+  margin-top: 150px;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.95);
+  border: 2px solid #ddb892;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  width: 90%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Header Styling */
+.daily-menu h2 {
+  font-size: 2.5rem;
+  color: #c04b00;
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #ddb892;
+  padding-bottom: 10px;
+}
+
+/* Hover Effect */
+.daily-menu:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* List Styling */
+.daily-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* List Item Styling */
+.daily-menu li {
+  background: #fff;
+  border: 2px solid #e3d5ca;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.daily-menu li:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+/* Image Styling */
+.daily-menu img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-right: 15px;
+}
+
+/* Text Styling */
+.daily-menu p {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #4a3b2d;
+  font-weight: 500;
+}
+
+.daily-menu p strong {
+  color: #6b4c3b;
+  font-weight: bold;
+}
+
+/* Button Styling */
+.daily-menu button {
+  align-self: flex-start;
+  padding: 12px 24px;
+  background: #c04b00;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.daily-menu button:hover {
+  background: #e07b3e;
+  transform: translateY(-3px);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .daily-menu {
+    padding: 100px 20px 80px 20px;
+  }
+
+  .daily-menu h2 {
+    font-size: 2rem;
+  }
+
+  .daily-menu img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .daily-menu p {
+    font-size: 1rem;
+  }
+
+  .daily-menu button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}

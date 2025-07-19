@@ -1,0 +1,109 @@
+.bulk-orders-list {
+    margin-top: 150px;
+  padding: 50px;
+    background: rgba(255, 255, 255, 0.95);
+    border: 2px solid #ddb892;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    width: 90%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover Effect */
+  .bulk-orders-list:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Header Styling */
+  .bulk-orders-list h2 {
+    font-size: 2.5rem;
+    color: #c04b00;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #ddb892;
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* List Styling */
+  .bulk-orders-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* List Item Styling */
+  .bulk-orders-list li {
+    background: #fff;
+    border: 2px solid #e3d5ca;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .bulk-orders-list li:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+  }
+  
+  /* Text Styling */
+  .bulk-orders-list p {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #4a3b2d;
+    font-weight: 500;
+  }
+  
+  .bulk-orders-list p strong {
+    color: #6b4c3b;
+    font-weight: bold;
+  }
+  
+  /* Dropdown Styling */
+  .bulk-orders-list select {
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 2px solid #ccb7a1;
+    background-color: #fff8f0;
+    color: #4a3b2d;
+    width: fit-content;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .bulk-orders-list select:focus {
+    border-color: #c04b00;
+    box-shadow: 0 0 8px rgba(192, 75, 0, 0.25);
+    outline: none;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .bulk-orders-list {
+      padding: 100px 20px 80px 20px;
+    }
+  
+    .bulk-orders-list h2 {
+      font-size: 2rem;
+    }
+  
+    .bulk-orders-list p {
+      font-size: 1rem;
+    }
+  
+    .bulk-orders-list select {
+      font-size: 1rem;
+      padding: 10px;
+    }
+  }
+  

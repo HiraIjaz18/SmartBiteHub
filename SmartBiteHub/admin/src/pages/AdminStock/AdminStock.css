@@ -1,0 +1,51 @@
+.admin-stock {
+    margin-top: 150px;
+    padding: 50px 30px;
+    background: rgba(255, 255, 255, 0.95);
+    border: 2px solid #ddb892;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    width: 90%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  .admin-stock h2 {
+    font-size: 2.2rem;
+    color: #c04b00;
+    margin-bottom: 20px;
+  }
+  
+  .stock-item {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .stock-item input {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 2px solid #ccb7a1;
+    width: 100%;
+  }
+  
+  .admin-stock button {
+    margin-top: 15px;
+    padding: 12px 20px;
+    background: #c04b00;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  gap: 15px;
+    font-size: 1.2rem;
+  }
+  
+  .admin-stock button:hover {
+    background: #e07b3e;
+  }
+  

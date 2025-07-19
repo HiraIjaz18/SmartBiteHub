@@ -1,0 +1,82 @@
+/* Dashboard.css */
+
+.dashboard-wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20230411/pngtree-coffee-border-background-image_2273778.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-container {
+  padding: 20px;
+  width: 100%;
+  max-width: 1000px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(6px);
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #4a4a4a;
+  text-align: center;
+}
+
+.dashboard-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #c04b00; /* Rich coffee-orange */
+}
+
+.dashboard-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #888; /* Soft gray subtitle */
+}
+
+.card-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.role-card {
+  width: 160px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #333; /* Dark readable text */
+  backdrop-filter: blur(4px);
+  border: 2px solid transparent;
+}
+
+.student-card {
+  border-color: #f57224; /* Warm orange for student role */
+}
+
+.faculty-card {
+  border-color: #2aa952; /* Deep green for faculty role */
+}
+
+.role-card:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}

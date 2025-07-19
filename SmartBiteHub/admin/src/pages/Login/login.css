@@ -1,0 +1,86 @@
+.login-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20230411/pngtree-coffee-border-background-image_2273778.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  overflow: hidden;
+}
+
+
+.login-form {
+  width: 100%;
+  max-width: 400px;
+  padding: 30px 25px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  color: #4a4a4a;
+  text-align: center;
+}
+
+.login-form h2 {
+  margin-bottom: 10px;
+  color: #c04b00; /* Bold orange-brown title */
+  font-size: 24px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #333;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.login-form input::placeholder {
+  color: #999;
+}
+
+.login-form input:focus {
+  border-color: #f57224; /* Orange border on focus */
+}
+
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #f57224; /* Confirm button orange */
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #d95e10; /* Darker orange hover */
+}
+
+.linkText {
+  font-size: 14px;
+  color: #2aa952; /* Green link, like "Total Price" */
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+  text-align: center;
+}
+
+.linkText:hover {
+  color: #188038;
+}

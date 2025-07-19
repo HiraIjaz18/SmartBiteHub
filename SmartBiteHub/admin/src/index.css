@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Outfit, sans-serif;
+}
+
+  body {
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20230411/pngtree-coffee-border-background-image_2273778.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #A9A9A9;
+}
+
+.app-content {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.menu {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.img-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.img-upload label {
+  cursor: pointer;
+}
+
+.img-upload img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.product-name,
+.product-description,
+.category,
+.price,
+.product-id,
+.product-type,
+.product-quantity,
+.product-availability {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.product-name input,
+.product-description textarea,
+.category input,
+.price input,
+.product-id input,
+.product-type input,
+.product-quantity input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.product-description textarea {
+  resize: vertical;
+}
+
+.product-availability input {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.special-menu .btn {
+  background-color: #FF9800;
+}
+
+.special-menu .btn:hover {
+  background-color: #e68900;
+}
+
+.daily-menu .btn {
+  background-color: #2196F3;
+}
+
+.daily-menu .btn:hover {
+  background-color: #1976D2;
+}

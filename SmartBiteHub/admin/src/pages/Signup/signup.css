@@ -1,0 +1,106 @@
+.signup-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20230411/pngtree-coffee-border-background-image_2273778.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Signup form box */
+.signup-form {
+  width: 100%;
+  max-width: 400px;
+  padding: 30px 25px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  color: #4a4a4a;
+  text-align: center;
+}
+
+/* Heading inside the form */
+.signup-form h2 {
+  margin-bottom: 10px;
+  color: #c04b00; /* Match image title color */
+  font-size: 24px;
+}
+
+/* Input fields */
+.signup-form input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #333;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.signup-form input::placeholder {
+  color: #999;
+}
+
+.signup-form input:focus {
+  border-color: #f57224; /* Warm orange focus */
+}
+
+/* Submit button */
+.signup-form button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #f57224; /* Same as confirm button in image */
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.signup-form button:hover {
+  background-color: #d95e10;
+}
+
+/* Forgot password link */
+.forgot-password {
+  width: 100%;
+  text-align: right;
+  margin-top: -8px;
+}
+
+.forgot-password a {
+  font-size: 13px;
+  color: #2aa952; /* Match the green from Total Price in image */
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.forgot-password a:hover {
+  color: #188038;
+}
+
+/* Sign-in link */
+.linkText {
+  font-size: 14px;
+  color: #2aa952;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.linkText:hover {
+  color: #188038;
+}
